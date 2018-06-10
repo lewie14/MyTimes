@@ -1,19 +1,30 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-
-h1 {
-  color: SeaGreen;
+.logo {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  flex-grow: 1;
+  padding-left: 30px;
 }
 
-
-p,
-li {
-  font-size: 18px;
+.logo img {
+  margin-right: 12px;
 }
 
+.logo span{
+  color: mediumaquamarine;
+}
 
-a {
-  text-decoration: none;
+header nav{
+  padding-right: 40px;
 }
