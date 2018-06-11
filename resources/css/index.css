@@ -43,7 +43,7 @@ nav span {
 
 }
 
-/* .image-content {
+.image-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +54,7 @@ nav span {
   color: white;
   text-align: center;
   border: 3px solid brown;
-} */
+}
 
 .narrative {
   margin-top: 16px;
@@ -121,8 +121,8 @@ header nav{
   border: 3px solid black;
 }
 
-
-/* .lead-story .image-content {
+/* This puts the picture at the back of the 1st story headline Tuna */
+.lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   width: 630px;
   margin-top: 0;
@@ -131,12 +131,21 @@ header nav{
   border: 3px solid blue;
 }
 
+/* This adds a left Margin to the headline Tuna */
 .lead-story .image-content span {
   margin-left: 20px;
-  border: 3px solid blue;
-} */
 
+}
 
+/* Puts in the autumn image and formats the text */
+.fall-cancelled.image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+/* Puts in the camera image and formats the text */
+.pop-culture.image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
 
 
 /* -------------------------------------------------- */
@@ -146,7 +155,10 @@ header nav{
   border: 3px solid yellow;
 }
 
-
+/* Puts in the cat image and formats the text */
+.cat-ceo.image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
 
 
 
@@ -187,5 +199,5 @@ img.cookie {
 
 .bite span {
   padding-left: 11px;
-  
+
 }
